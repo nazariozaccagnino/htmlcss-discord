@@ -8,8 +8,36 @@ ul{
     list-style: none;
 }
 /* general */
+:root {
+        --color-scondary: #ffffff;
+        --color-primary: #23272a;
+        --color-header-bg: #255ee9;
+        --color-section-bg: #f6f6f6;
+        --color-contrast: #aebbe7;
+    }
+
 body{
-    background-color: aqua;
+    /* background-image: url("../img/wave.svg"); */
     font-family: 'Noto Sans', sans-serif;
+    background-color: var(--color-scondary);
+    color: var(--color-primary);
 }
-/* utilities */
+
+/* debug */
+.debug{
+    border: 2px solid rgb(255, 0, 0);
+}
+/*  */
+header{
+    background-color: var(--color-header-bg);
+    color: var(--color-scondary);
+}
+footer{
+    background-color: var(--color-primary);
+    color: var(--color-scondary);
+}
+/* utility */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
