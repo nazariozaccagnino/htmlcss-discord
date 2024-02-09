@@ -23,11 +23,7 @@ body{
     color: var(--color-primary);
 }
 
-/* debug */
-.debug{
-    border: 2px solid rgb(255, 0, 0);
-}
-/*  */
+
 header{
     background-color: var(--color-header-bg);
     color: var(--color-scondary);
@@ -37,6 +33,19 @@ header{
     background-image: url("../img/jumbo.png");
     min-height: 500px;
     background-size: cover;
+}
+.left{
+    width: 60%;
+}
+.right{
+    width: 40%;
+    padding-top: 3%;
+}
+.bodyimg{
+    width: 100%;
+}
+h2{
+    padding-bottom: 3%;
 }
 
 footer{
@@ -64,4 +73,7 @@ footer{
 .align-items-center{
     align-items: center;
     align-content: center;
+}
+.row-reverse{
+    flex-direction: row-reverse;
 }
