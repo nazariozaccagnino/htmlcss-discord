@@ -22,17 +22,22 @@ body{
     background-color: var(--color-scondary);
     color: var(--color-primary);
 }
+
 /* buttons */
 .button{    
         border-radius: 30px;
         padding: 10px 20px;
-        color: white;
         font-size: 0.87em;
         margin: 3px;
-        background-color: var(--color-scondary);
-        color: var(--color-primary);
         font-weight: 600;
         max-width: 100%;
+}
+.bwhite{/* various colors */
+    background-color: var(--color-scondary);
+    color: var(--color-primary);
+}
+.bblue{
+    background-color: var(--color-primary);
 }
 
 /* header properties */
@@ -49,6 +54,9 @@ li > a{
     background-image: url("../img/jumbo.png");
     min-height: 500px;
     background-size: cover;
+}
+#hero p{
+    padding-bottom: 20px;
 }
 .left{
     width: 60%;
@@ -83,9 +91,14 @@ footer{
 /* utility */
 .container{
     max-width: 1200px;
-    margin: 0 auto 15px;
+    margin: 0 auto 30px;
     padding: 10px;
     
+}
+main .container{
+    max-width: 1200px;
+    margin: 0 auto 130px;
+    padding: 10px;
 }
 .small-container{
     max-width: 800px;
@@ -107,6 +120,9 @@ footer{
 }
 .column{
     flex-direction: column;
+}
+.row{
+    flex-direction: row;
 }
 .row-reverse{
     flex-direction: row-reverse;
