@@ -45,7 +45,13 @@ header{
     width: 100%;
 }
 h2{
-    padding-bottom: 3%;
+    padding-bottom: 4%;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#technology h2, p{
+    text-align: center;
 }
 
 footer{
@@ -55,8 +61,9 @@ footer{
 /* utility */
 .container{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 25px auto;
     padding: 10px;
+    
 }
 .small-container{
     max-width: 800px;
