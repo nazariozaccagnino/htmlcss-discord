@@ -31,6 +31,12 @@ body{
 header{
     background-color: var(--color-header-bg);
     color: var(--color-scondary);
+
+}
+#hero{
+    background-image: url("../img/jumbo.png");
+    min-height: 500px;
+    background-size: cover;
 }
 footer{
     background-color: var(--color-primary);
@@ -40,4 +46,21 @@ footer{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 10px;
+}
+.small-container{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* flex utilities */
+.d-flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+    align-content: center;
 }
