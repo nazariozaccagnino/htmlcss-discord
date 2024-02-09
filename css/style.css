@@ -1,0 +1,15 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+/* general */
+body{
+    background-color: aqua;
+    font-family: 'Noto Sans', sans-serif;
+}
+/* utilities */
