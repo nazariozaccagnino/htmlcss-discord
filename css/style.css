@@ -47,20 +47,6 @@ body{
 }
 /* end of buttons */
 
-/* background */
-/* #feature{
-    background-image: url('../img/wave.svg');
-    background-size: 200% 200px;
-    background-repeat: no-repeat;
-    background-position: bottom;    
-}
-#channel{
-    background-image: url('../img/wave.svg');
-    background-size: 200% 200px;
-    background-repeat: no-repeat;
-    background-position: top revert;  
-} */
-
 /* header properties */
 header{
     background-color: var(--color-header-bg);
@@ -79,6 +65,7 @@ header a{
 #hero p{
     padding-bottom: 20px;
 }
+
 /* body items */
 .left{
     width: 60%;
@@ -139,6 +126,7 @@ footer h2{
     padding-top: 20px;
     padding-right: 30px;
 }
+/* end of footer */
 
 /* utility */
 .container{
@@ -148,8 +136,8 @@ footer h2{
 }
 main .container{
     max-width: 1200px;
-    margin: 0 auto 130px;
-    padding: 10px;
+    margin: 0 auto;
+    padding: 10px 10px 150px 10px;
 }
 .small-container{
     max-width: 800px;
