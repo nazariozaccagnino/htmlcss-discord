@@ -40,6 +40,7 @@ body{
 .bblue{
     background-color: var(--color-primary);
 }
+/* end of buttons */
 
 /* header properties */
 header{
@@ -59,6 +60,7 @@ header a{
 #hero p{
     padding-bottom: 20px;
 }
+/* body items */
 .left{
     width: 60%;
 }
@@ -73,7 +75,6 @@ h1{
     padding-bottom: 4%;
     font-weight: 600;
     font-size: 40px;
-
 }
 h2{
     padding-bottom: 4%;
@@ -84,10 +85,15 @@ h2{
 #technology h2, p{
     text-align: center;
 }
+/* end of body items */
 
+/* footer */
 footer{
     background-color: var(--color-primary);
     color: var(--color-scondary);
+}
+footer ul{
+    line-height: 50px
 }
 footer a{
     color: var(--color-scondary);
@@ -97,12 +103,25 @@ footer h4{
     font-size: 15px;
     font-weight: 600;
 }
+footer h2{
+    color: var(--color-purple);
+}
+#flag{
+    width: 30px;
+}
+.top{
+    border-bottom: 1px solid var(--color-purple);
+}
+.socials{
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
 /* utility */
 .container{
     max-width: 1200px;
     margin: 0 auto 30px;
-    padding: 10px;
-    
+    padding: 10px;    
 }
 main .container{
     max-width: 1200px;
@@ -113,9 +132,10 @@ main .container{
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 100px;
-        
+    padding-top: 100px;        
 }
+/* end of utilities */
+
 /* flex utilities */
 .d-flex{
     display: flex;
@@ -141,10 +161,8 @@ main .container{
 }
 .justify-start{
     justify-content: flex-start;
-
 }
 .wrap{
     flex-wrap: wrap;
 }
 /* end flex utilities */
-
