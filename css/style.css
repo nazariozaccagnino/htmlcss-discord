@@ -39,8 +39,27 @@ body{
 }
 .bblue{
     background-color: var(--color-primary);
+    color: var(--color-scondary);
+}
+.bpurple{
+    background-color: var(--color-purple);
+    color: var(--color-scondary);
 }
 /* end of buttons */
+
+/* background */
+/* #feature{
+    background-image: url('../img/wave.svg');
+    background-size: 200% 200px;
+    background-repeat: no-repeat;
+    background-position: bottom;    
+}
+#channel{
+    background-image: url('../img/wave.svg');
+    background-size: 200% 200px;
+    background-repeat: no-repeat;
+    background-position: top revert;  
+} */
 
 /* header properties */
 header{
@@ -84,6 +103,10 @@ h2{
 
 #technology h2, p{
     text-align: center;
+}
+#stars{
+    width: 70%;
+    
 }
 /* end of body items */
 
@@ -140,6 +163,9 @@ main .container{
 .d-flex{
     display: flex;
 }
+.no-flex{
+    display: block;
+}
 .space-between{
     justify-content: space-between;
 }
@@ -156,11 +182,14 @@ main .container{
 .row-reverse{
     flex-direction: row-reverse;
 }
-.justify-center{
+.align-center{
     align-items: center;
 }
 .justify-start{
     justify-content: flex-start;
+}
+.justify-center{
+    justify-content: center;
 }
 .wrap{
     flex-wrap: wrap;
