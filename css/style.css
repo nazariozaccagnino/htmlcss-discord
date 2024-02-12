@@ -23,7 +23,12 @@ body{
     background-color: var(--color-scondary);
     color: var(--color-primary);
 }
-
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 /* buttons */
 .button{    
         border-radius: 30px;
@@ -44,6 +49,11 @@ body{
 .bpurple{
     background-color: var(--color-purple);
     color: var(--color-scondary);
+}
+.button:hover{
+    box-shadow: 3px 5px 8px var(--color-primary);
+    transition: all 1s;
+    text-decoration: none;
 }
 /* end of buttons */
 
@@ -83,7 +93,6 @@ h1{
     font-size: 40px;
 }
 h2{
-    padding-bottom: 4%;
     font-weight: 600;
     font-size: 40px;
 }
@@ -91,8 +100,14 @@ h2{
 #technology h2, p{
     text-align: center;
 }
-#stars{
-    width: 70%;
+.stars{
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
     
 }
 /* end of body items */
@@ -137,7 +152,7 @@ footer h2{
 main .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px 10px 150px 10px;
+    padding: 10px 10px 130px 10px;
 }
 .small-container{
     max-width: 800px;
@@ -181,5 +196,8 @@ main .container{
 }
 .wrap{
     flex-wrap: wrap;
+}
+.baseline{
+    align-items: baseline;
 }
 /* end flex utilities */
