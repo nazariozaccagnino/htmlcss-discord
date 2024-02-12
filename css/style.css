@@ -18,11 +18,11 @@ ul{
     }
 
 body{
-    /* background-image: url("../img/wave.svg"); */
     font-family: 'Noto Sans', sans-serif;
     background-color: var(--color-scondary);
     color: var(--color-primary);
 }
+
 a{
     text-decoration: none;
 }
@@ -75,6 +75,14 @@ header a{
 #hero p{
     padding-bottom: 20px;
 }
+/* background rules */
+.backgroundwave{
+    background-image: url("../img/wave.svg");
+    height: 100px;
+    filter: opacity(0.04);
+    max-height: fit-content;
+}
+
 
 /* body items */
 .left{
@@ -108,6 +116,7 @@ h2{
     padding-top: 20px;
     padding-left: 60px;
     padding-right: 60px;
+    margin-bottom: 50px;
     
 }
 /* end of body items */
