@@ -80,9 +80,20 @@ header a{
     background-image: url("../img/wave.svg");
     height: 100px;
     filter: opacity(0.04);
-    max-height: fit-content;
 }
-
+.backgroundwave-down{
+    transform: rotatex(0.5turn);
+}
+#channel{
+    background-color: #F5F5F5;
+}
+/* end of background rules */
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #255ee9;
+}
 
 /* body items */
 .left{
