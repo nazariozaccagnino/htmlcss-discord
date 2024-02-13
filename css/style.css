@@ -84,9 +84,10 @@ header a{
 .backgroundwave-down{
     transform: rotatex(0.5turn);
 }
-#channel{
+#channel, #technology, #call-to-action{
     background-color: #F5F5F5;
 }
+
 /* end of background rules */
 .fixed{
     position: fixed;
